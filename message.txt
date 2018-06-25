@@ -1,0 +1,11 @@
+GET www.google.com HTTP/1.1
+Connection: close
+Date: 31/12/2014 12:00
+Transfer-Encoding: chunked
+Accept-Charset: iso-8859-5, unicode-1-1;q=0.8
+Referer: http://www.w3.org/Protocols/rfc2616/rfc2616.html
+User-Agent: Mozilla/5.0
+Content-Length: 3459
+Expires: 31/12/2014 13:00
+
+This is the message body because there as an additional newline before it.
